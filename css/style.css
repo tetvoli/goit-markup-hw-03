@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --background-main-color: #ffffff;
+  --background-head-color: #2f303a;
+  --bacground-clip-color: #e5e5e5;
+  --background-text-color: #f5f4fa;
+  --button-color: #2196f3;
+  --button-portfolio-color: #f5f4fa;
+
+  --text-accent-color: #2196f3;
+  --text-footer-color: #ffffff, 60 %;
+  --text-main-color: #212121;
+  --text-contrast-color: #ffffff;
+  --text-secondary-color: #757575;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+/*HEADER*/
+header {
+  background-color: var(--background-main-color);
+}
+header .logo {
+  font-family: Raleway;
+  font-weight: 700;
+  line-height: 1, 19;
+  letter-spacing: 0.03em;
+  color: var(--text-main-color);
+}
+.logo-header {
+  color: #2196f3;
+}
+
+.site-nav a {
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
+  color: var(--text-main-color);
+}
+.site-nav a:focus,
+.site-nav a:active,
+.site-nav a:hover {
+  color: var(--text-accent-color);
+}
+.site-nav .selected {
+  color: var(--text-accent-color);
+}
+
+header .adress a {
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
+  color: var(--text-secondary-color);
+}
+header .adress a:focus,
+header .adress a:active,
+header .adress a:hover {
+  color: var(--text-accent-color);
+}
+
+/*HERO*/
+.hero {
+  font-family: Roboto;
+  letter-spacing: 0.06em;
+  background-color: var(--background-head-color);
+  text-align: center;
+}
+h1 {
+  font-weight: 900;
+  line-height: 1, 36;
+  text-transform: uppercase;
+  color: var(--text-contrast-color);
+}
+.hero button {
+  font-weight: 700;
+  line-height: 1, 88;
+  color: var(--text-contrast-color);
+  background-color: var(--text-accent-color);
+}
+
+/*НАШИ ПРЕИМУЩЕСТВА*/
+.feuture {
+  font-family: Roboto;
+  background-color: var(--bacground-clip-color);
+}
+.feature h2 {
+  display: none;
+}
+
+.feature h3 {
+  font-weight: 700;
+  line-height: 1, 14;
+  letter-spacing: 0.03em;
+  color: var(--text-main-color);
+}
+.feature p {
+  font-weight: 400;
+  line-height: 1, 71;
+  letter-spacing: 0.03em;
+  color: var(--text-secondary-color);
+}
+/*Наши работы*/
+.ourwork {
+  font-family: Roboto;
+  font-weight: 700;
+  line-height: 1, 17;
+  letter-spacing: 0, 03em;
+  color: var(--text-main-color);
+  background-color: var(--bacground-clip-color);
+}
+/*Наша команда*/
+.team {
+  font-family: Roboto;
+  background-color: var(--background-text-color);
+}
+.team h2 {
+  font-weight: 700;
+  line-height: 1, 17;
+  letter-spacing: 0, 03em;
+  color: var(--text-main-color);
+}
+.team h3 {
+  font-weight: 500;
+  line-height: 1, 19;
+  letter-spacing: 0, 03em;
+  color: var(--text-main-color);
+}
+.team p {
+  font-weight: 400;
+  line-height: 1, 19;
+  letter-spacing: 0, 03em;
+  color: var(--text-secondary-color);
+}
+/*Footer*/
+footer {
+  background-color: var(--background-head-color);
+}
+footer .logo {
+  font-family: Raleway;
+  font-weight: 700;
+  line-height: 1, 19;
+  letter-spacing: 0.03em;
+  color: var(--text-contrast-color);
+}
+.logo-footer {
+  color: #2196f3;
+}
+
+footer address a {
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
+  color: var(--text-secondary-color);
+}
+footer address p {
+  color: var(--text-contrast-color);
+}
+
+.site-menu button {
+  font-family: Roboto;
+  font-weight: 500;
+  line-height: 1, 14;
+  letter-spacing: 0.02em;
+  color: var(--text-main-color);
+  background-color: var(--button-portfolio-color);
+}
+
+.site-menu button:focus,
+.site-menu button:active,
+.site-menu button:hover {
+  color: var(--text-contrast-color);
+  background-color: var(--button-color);
+}
+
+.projects {
+  font-family: Roboto;
+  background-color: var(--background-main-color);
+}
+.projects h3 {
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--text-main-color);
+}
+.projects p {
+  font-weight: 400;
+  line-height: 1, 88;
+  letter-spacing: 0.03em;
+  color: var(--text-secondary-color);
+}
