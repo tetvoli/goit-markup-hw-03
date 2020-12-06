@@ -53,6 +53,9 @@ header .logo {
 .list {
   display: flex;
 }
+.list {
+  margin-right: 331px;
+}
 .list li + li {
   margin-left: 50px;
 }
@@ -125,16 +128,28 @@ h1 {
 }
 
 /*НАШИ ПРЕИМУЩЕСТВА*/
-.feuture {
+.feature {
   font-family: Roboto;
-  background-color: var(--bacground-clip-color);
+  background-color: var(--background-main-color);
+  margin-top: 94px;
 }
+.details {
+  display: flex;
+}
+.theme {
+  display: flex;
+  width: 270px;
+  justify-self: auto;
+}
+.theme + .theme {
+  margin-left: 30px;
+}
+
 .feature h2 {
   display: none;
 }
 
 .feature h3 {
-  margin-top: 94px;
   margin-bottom: 10px;
   font-weight: 700;
   line-height: 1, 14;
@@ -149,15 +164,25 @@ h1 {
 }
 /*Наши работы*/
 .ourwork {
+  display: flex;
   margin-top: 94px;
-  margin-bottom: 94px;
+  margin-bottom: 0px;
   font-family: Roboto;
   font-weight: 700;
   line-height: 1, 17;
   letter-spacing: 0, 03em;
   color: var(--text-main-color);
-  background-color: var(--bacground-clip-color);
+  background-color: var(--background-main-color);
 }
+.ourwork {
+  display: flex;
+}
+.ourwork .point {
+  width: 370px;
+  height: 294px;
+  outline: 1px solid tomato;
+}
+
 /*Наша команда*/
 .team {
   margin-bottom: 94px;
@@ -209,7 +234,6 @@ footer address a {
 footer address p {
   color: var(--text-contrast-color);
 }
-
 .site-menu button {
   display: inline-block;
   border-radius: 4px;
