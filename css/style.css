@@ -23,10 +23,7 @@ ul {
   margin-right: 15px;
   margin-right: 15px;
 }
-.list {
-  margin: 0;
-  padding: 0;
-}
+.list,
 h1,
 h2,
 h3,
@@ -38,15 +35,26 @@ p {
 header {
   background-color: var(--background-main-color);
 }
+.content {
+  display: flex;
+  align-items: center;
+}
 header .logo {
   font-family: Raleway;
   font-weight: 700;
   line-height: 1, 19;
   letter-spacing: 0.03em;
   color: var(--text-main-color);
+  margin-right: 90px;
 }
 .logo-header {
   color: #2196f3;
+}
+.list {
+  display: flex;
+}
+.list li + li {
+  margin-left: 50px;
 }
 
 .site-nav a {
@@ -64,7 +72,15 @@ header .logo {
 .site-nav .selected {
   color: var(--text-accent-color);
 }
-
+.ad {
+  display: flex;
+}
+.ad li + li {
+  margin-left: 50px;
+}
+.header .adress {
+  display: flex;
+}
 header .adress a {
   font-family: Roboto;
   font-weight: 500;
