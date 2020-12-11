@@ -50,6 +50,12 @@ header {
 .content {
   display: flex;
   align-items: center;
+  width: 1240px;
+  
+  margin-top: 32px;
+  margin-bottom: 32px;
+  margin-left: 215px;
+  margin-right: 215px;
 }
 header .logo {
   font-family: Raleway;
