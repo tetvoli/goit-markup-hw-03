@@ -14,9 +14,13 @@
 }
 a {
   text-decoration: none;
+  text-transform: none;
+  font-style: normal;
 }
 ul {
   list-style-type: none;
+  text-decoration: none;
+  font-style: normal;
 }
 .container {
   width: 1200px;
@@ -319,9 +323,6 @@ footer address p {
   display: flex;
   justify-content: center;
 
-  border-radius: 4px;
-  border: var(--background-text-color);
-
   font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
@@ -339,11 +340,14 @@ footer address p {
 .button-menu .bt + .bt {
   margin-left: 8px;
 }
-.bt {
+.bt-name {
   padding-top: 6px;
   padding-bottom: 6px;
   padding-left: 22px;
   padding-right: 22px;
+
+  border-radius: 4px;
+  border: var(--background-text-color);
 }
 .projects {
   width: 1200px;
@@ -365,6 +369,7 @@ footer address p {
   flex-wrap: wrap;
   padding: 0px;
   margin: 0px;
+  font-style: normal;
 }
 .projects-foto {
   width: 370px;
@@ -379,6 +384,7 @@ footer address p {
 
   border: 1px solid #eeeeee;
   box-sizing: border-box;
+  font-style: normal;
 }
 .projects-point:nth-child(3n) {
   margin-right: 0;
@@ -392,6 +398,7 @@ footer address p {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--text-main-color);
+  font-style: normal;
   padding-bottom: 4px;
 }
 .projects-tekst {
@@ -399,6 +406,7 @@ footer address p {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
+  font-style: normal;
   color: var(--text-secondary-color);
   padding-bottom: 20px;
 }
