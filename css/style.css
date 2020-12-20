@@ -399,7 +399,8 @@ footer address p {
   letter-spacing: 0.06em;
   color: var(--text-main-color);
   font-style: normal;
-  padding-bottom: 4px;
+  margin-bottom: 4px;
+  margin-left: 24px;
 }
 .projects-tekst {
   font-weight: 400;
@@ -408,5 +409,6 @@ footer address p {
   letter-spacing: 0.03em;
   font-style: normal;
   color: var(--text-secondary-color);
-  padding-bottom: 20px;
+  margin-left: 24px;
+  margin-bottom: 20px;
 }
